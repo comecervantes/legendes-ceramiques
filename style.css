@@ -1,0 +1,289 @@
+/* plus */
+
+@font-face {font-family: "AnoStencil W00 Regular";
+  src: url("fonts/RG/b8efc807de4361147855dd87d07cb12f.eot");
+  src: url("fonts/RG/b8efc807de4361147855dd87d07cb12f.eot?#iefix") format("embedded-opentype"),
+       url("fonts/RG/b8efc807de4361147855dd87d07cb12f.woff2") format("woff2"),
+       url("fonts/RG/b8efc807de4361147855dd87d07cb12f.woff") format("woff"),
+       url("fonts/RG/b8efc807de4361147855dd87d07cb12f.ttf") format("truetype"),
+       url("fonts/fonts/RG/b8efc807de4361147855dd87d07cb12f.svg#AnoStencil W00 Regular") format("svg");
+}
+
+@font-face {font-family: "AnoStencil W00 Thin";
+  src: url("fonts/TH/a0e746623137b8498fe1c5bf3f6c22ce.eot");
+  src: url("fonts/TH/a0e746623137b8498fe1c5bf3f6c22ce.eot?#iefix") format("embedded-opentype"),
+       url("fonts/TH/a0e746623137b8498fe1c5bf3f6c22ce.woff2") format("woff2"),
+       url("fonts/TH/a0e746623137b8498fe1c5bf3f6c22ce.woff") format("woff"),
+       url("fonts/TH/a0e746623137b8498fe1c5bf3f6c22ce.ttf") format("truetype"),
+       url("fonts/TH/a0e746623137b8498fe1c5bf3f6c22ce.svg#AnoStencil W00 Thin") format("svg");
+}
+
+@font-face {font-family: "AnoStencil W00 Light";
+  src: url("fonts/LI/ec838304c780c9d541801c131c683f27.eot");
+  src: url("fonts/LI/ec838304c780c9d541801c131c683f27.eot?#iefix") format("embedded-opentype"),
+       url("fonts/LI/ec838304c780c9d541801c131c683f27.woff2") format("woff2"),
+       url("fonts/LI/ec838304c780c9d541801c131c683f27.woff") format("woff"),
+       url("fonts/LI/ec838304c780c9d541801c131c683f27.ttf") format("truetype"),
+       url("fonts/LI/ec838304c780c9d541801c131c683f27.svg#AnoStencil W00 Light") format("svg");
+}
+
+@font-face {font-family: "AnoStencil W00 Bold";
+  src: url("fonts/BO/283ad926faa1b2c99c08fb9db72df8c5.eot");
+  src: url("fonts/BO/283ad926faa1b2c99c08fb9db72df8c5.eot?#iefix") format("embedded-opentype"),
+       url("fonts/BO/283ad926faa1b2c99c08fb9db72df8c5.woff2") format("woff2"),
+       url("fonts/BO/283ad926faa1b2c99c08fb9db72df8c5.woff") format("woff"),
+       url("fonts/BO/283ad926faa1b2c99c08fb9db72df8c5.ttf") format("truetype"),
+       url("fonts/BO/283ad926faa1b2c99c08fb9db72df8c5.svg#AnoStencil W00 Bold") format("svg");
+}
+
+.cursor {
+  cursor: auto;
+}
+
+.ncursor {
+  cursor: none;
+}
+
+/* index */
+
+.logoid {
+    display: block;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.logoid:hover {
+    transform: rotate(360deg);
+}
+
+.iconepr {
+  width: 15%;
+  height: auto;
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.link1 {
+  color: black;
+  font-size: 200%;
+}
+
+.link1:hover {
+  color: #E74C3C;
+    font-size: 200%;
+}
+
+.link2 {
+  color: black;
+    font-size: 200%;
+}
+
+.link2:hover {
+  color: #9B59B6;
+    font-size: 200%;
+}
+
+.link3 {
+  color: black;
+    font-size: 200%;
+}
+
+.link3:hover {
+  color: #8E44AD;
+    font-size: 200%;
+}
+
+.link4 {
+  color: black;
+    font-size: 200%;
+}
+
+.link4:hover {
+  color: #2980B9;
+    font-size: 200%;
+}
+
+.link5 {
+  color: black;
+    font-size: 200%;
+}
+
+.link5:hover {
+  color: #3498DB;
+    font-size: 200%;
+}
+
+.link6 {
+  color: black;
+    font-size: 200%;
+}
+
+.link6:hover {
+  color: #1ABC9C;
+    font-size: 200%;
+}
+
+.link7 {
+  color: black;
+    font-size: 200%;
+}
+
+.link7:hover {
+  color: #16A085;
+    font-size: 200%;
+}
+
+.link8 {
+  color: black;
+    font-size: 200%;
+}
+
+.link8:hover {
+  color: #27AE60;
+    font-size: 200%;
+}
+
+.link9 {
+  color: black;
+    font-size: 200%;
+}
+
+.link9:hover {
+  color: #2ECC71;
+    font-size: 200%;
+}
+
+.link10 {
+  color: black;
+    font-size: 200%;
+}
+
+.link10:hover {
+  color: #F1C40F;
+    font-size: 200%;
+}
+
+.link11 {
+  color: black;
+    font-size: 200%;
+}
+
+.link11:hover {
+  color: #F39C12;
+    font-size: 200%;
+}
+
+.link12 {
+  color: black;
+    font-size: 200%;
+}
+
+.link12:hover {
+  color: #E67E22;
+    font-size: 200%;
+}
+
+.link13 {
+  color: black;
+    font-size: 200%;
+}
+
+.link13:hover {
+  color: #D35400;
+}
+
+#nom {
+    padding: 2%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+    font-family:"AnoStencil W00 Regular";
+}
+
+/* page */
+
+.logopa {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.logopa:hover {
+  transform: rotate(360deg);
+}
+
+h2 {
+	font-size: 4em;
+  font-style: italic;
+	font-family:"AnoStencil W00 Bold";
+}
+
+#titre {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+}
+
+#image {
+  padding:10px;
+  border:2px solid #ccc;
+  background-color: #eee;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+#droits {
+  margin-top: -15px;
+  font-size: 10px;
+  font-style: normal;
+  font-family:"AnoStencil W00 Thin";
+}
+
+#dim {
+  font-size: 20px;
+  font-style: normal;
+  font-family:"AnoStencil W00 Light";
+}
+
+#exp {
+  font-size: 20px;
+  font-style: normal;
+  font-family:"AnoStencil W00 Regular";
+}
+
+#cit {
+  font-size: 20px;
+  font-style: normal;
+  font-family:"AnoStencil W00 Light";
+}
+
+#aut {
+  margin-left: 20px;
+  margin-top: -10px;
+  font-size: 20px;
+  font-style: normal;
+  font-family:"AnoStencil W00 Regular";
+}
+
+#icon {
+  width: 6%;
+  max-width: 50px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* more */
+
+#more {
+  width: 3%;
+  max-width: 40px;
+  height: auto;
+}
+
+#ebay {
+  width: 10%;
+  height: auto;
+}
