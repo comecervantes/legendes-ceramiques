@@ -260,11 +260,20 @@ h2 {
 }
 
 #aut {
-  margin-left: 20px;
   margin-top: -10px;
   font-size: 20px;
   font-style: normal;
   font-family:"AnoStencil W00 Regular";
+}
+
+#gras {
+  font-size: 20px;
+  font-style: normal;
+  font-family: "AnoStencil W00 Bold";
+}
+
+#normal {
+  font-family: "AnoStencil W00 Regular";
 }
 
 #icon {
@@ -278,12 +287,44 @@ h2 {
 /* more */
 
 #more {
-  width: 3%;
+  width: 5%;
   max-width: 40px;
   height: auto;
 }
 
-#ebay {
-  width: 10%;
+#more2 {
+  width: 5%;
+  max-width: 40px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#morechateau {
+  padding-right: 1%;
+  width: 23%;
+  max-width: 200px;
+  height: auto;
+}
+
+#morelegendes {
+  padding-right: 1%;
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+}
+
+#moreceramo {
+  padding-bottom: 2%;
+  padding-left: 1%;
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+}
+
+#moreinsta {
+  padding-left: 1%;
+  width: 33%;
+  max-width: 200px;
   height: auto;
 }
