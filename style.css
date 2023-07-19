@@ -260,7 +260,6 @@ h2 {
 }
 
 #aut {
-  margin-left: 20px;
   margin-top: -10px;
   font-size: 20px;
   font-style: normal;
@@ -283,7 +282,26 @@ h2 {
   height: auto;
 }
 
-#ebay {
-  width: 10%;
+#morechateau {
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+}
+
+#morelegendes {
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+}
+
+#moreceramo {
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+}
+
+#moreinsta {
+  width: 20%;
+  max-width: 200px;
   height: auto;
 }
