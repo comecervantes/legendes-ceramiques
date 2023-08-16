@@ -191,6 +191,15 @@
   color: #D35400;
 }
 
+.abt {
+  color: black;
+    font-size: 200%;
+}
+
+.abt:hover {
+  color: grey;
+}
+
 #nom {
     padding: 2%;
     margin-top: 20px;
@@ -212,9 +221,15 @@
 }
 
 h2 {
-	font-size: 4em;
-  font-style: italic;
+	font-size: 240%;
+    font-style: italic;
 	font-family:"AnoStencil W00 Bold";
+  margin-block-end: 0;
+}
+
+p {
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
 }
 
 #titre {
@@ -247,23 +262,22 @@ h2 {
   font-family:"AnoStencil W00 Light";
 }
 
-#exp {
+#reg {
   font-size: 20px;
   font-style: normal;
   font-family:"AnoStencil W00 Regular";
 }
 
-#cit {
-  font-size: 20px;
+#ligt {
+  font-size: 10px;
   font-style: normal;
   font-family:"AnoStencil W00 Light";
 }
 
-#aut {
-  margin-top: -10px;
+#bol {
   font-size: 20px;
   font-style: normal;
-  font-family:"AnoStencil W00 Regular";
+  font-family:"AnoStencil W00 Bold";
 }
 
 #gras {
@@ -277,8 +291,8 @@ h2 {
 }
 
 #icon {
-  width: 6%;
-  max-width: 50px;
+  width: 5em;
+  max-width: 60px;
   height: auto;
   margin-left: 20px;
   margin-top: 20px;
@@ -293,8 +307,8 @@ h2 {
 }
 
 #more2 {
-  width: 5%;
-  max-width: 40px;
+  width: 5em;
+  max-width: 60px;
   height: auto;
   margin-left: 20px;
   margin-top: 20px;
